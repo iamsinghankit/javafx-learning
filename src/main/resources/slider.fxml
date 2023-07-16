@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="399.0" prefWidth="605.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.iamsinghankit.javafxlearning.SliderController">
+   <children>
+      <Slider fx:id="mySlider" layoutX="271.0" layoutY="43.0" majorTickUnit="10.0" minorTickCount="10" orientation="VERTICAL" prefHeight="307.0" prefWidth="16.0" showTickLabels="true" showTickMarks="true" />
+      <Label fx:id="myLabel" layoutX="335.0" layoutY="188.0" prefHeight="34.0" prefWidth="55.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
